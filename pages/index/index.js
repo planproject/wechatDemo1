@@ -1,5 +1,6 @@
 //index.js
 //获取应用实例
+//第3 25:22
 const app = getApp()
 
 Page({
