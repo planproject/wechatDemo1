@@ -1,4 +1,7 @@
 //app.js
+const utils = require('./utils/util.js');
+utils.ceshi('z咋回事儿啊');
+
 App({
   onLaunch: function () {
     // 展示本地存储能力
