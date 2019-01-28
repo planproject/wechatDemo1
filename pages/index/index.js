@@ -7,6 +7,15 @@ Page({
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
+    id: 'laodi',
+    condition:1,
+    length: 10,
+    name: '开始',
+    obj:{
+      name:'asd',
+      age:'321'
+    },
+    arr:['red', 'blue'],
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   //事件处理函数

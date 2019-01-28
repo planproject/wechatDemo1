@@ -7,6 +7,16 @@
       <text class="userinfo-nickname">{{userInfo.nickName}}</text>
     </block>
   </view>
+  <!--<view id="item-{{ id }}">小李</view>-->
+  <!-- <view wx:if="{{condition}}">显示me</view> -->
+  <!-- <view><checkbox checked="{{ true }}"></checkbox></view> -->
+  <!-- <view hidden='{{true}}'>你好</view> -->
+  <!-- <view hidden="{{ flag ? true : false }}">你好1</view>
+  <view wx:if="{{ length > 5 }}">asd</view>
+  <view>{{"char" + name}}</view> -->
+
+  <view class='userinfo-nickname'>{{ obj.name }} {{ '你好' + obj.age }}</view>
+  <view> I like {{ arr[1] }}</view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
