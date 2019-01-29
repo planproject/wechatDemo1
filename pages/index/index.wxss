@@ -1,4 +1,7 @@
 /**index.wxss**/
+view{
+  font-family: '微软雅黑';
+}
 .userinfo {
   display: flex;
   flex-direction: column;

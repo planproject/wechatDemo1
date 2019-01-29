@@ -1,1 +1,32 @@
-asdssdasa
+<view wx:for="{{arr}}" wx:for-item="val" wx:for-index="i" hidden>
+  {{i}}: {{val}}
+  <!-- 下标和值 -->
+  <!-- 重定义下标和值 -->
+</view>
+
+<block wx:for="{{[1, 2, 3]}}">
+  <view hidden="{{false}}">{{index}}:{{item}}</view>
+  <!-- block可包含多个节点 -->
+</block>
+
+<!-- <view wx:if="{{condition}}">True</view> -->
+<view wx:if="{{ length > 10 }}">1</view>  
+<view wx:elif="{{ length > 2 }}">2</view>  
+<view wx:else>3</view>  
+
+<template name="tp">
+  <view>
+    <text>{{name}}</text>
+    <text>{{age}}</text>
+  </view>
+</template>
+
+<template name="tp2">
+  <view>
+    <text>asd</text>
+    <text>dsa</text>
+  </view>
+</template>
+
+<template is="tp2" />
+<template is="tp" data="{{name:'888' ,age:'90'}}" />

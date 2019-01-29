@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    arr:[1,2,3,4,5,6,7],
+    condition:true,
+    length:3
   },
 
   /**
