@@ -3,7 +3,8 @@
     "pages/index/index", 
     "pages/logs/logs",
     "pages/ceshi/ceshi",
-    "pages/ceshi2/ceshi2"
+    "pages/ceshi2/ceshi2",
+    "pages/temp/temp"
   ],
   "window": {
     "backgroundTextStyle": "dark",
@@ -28,6 +29,14 @@
       {
         "pagePath": "pages/ceshi/ceshi",
         "text": "测试"
+      },
+      {
+        "pagePath": "pages/ceshi2/ceshi2",
+        "text": "测试2"
+      },
+      {
+        "pagePath": "pages/temp/temp",
+        "text": "temp"
       }
     ],
     "color":"orange",

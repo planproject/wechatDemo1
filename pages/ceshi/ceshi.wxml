@@ -30,3 +30,4 @@
 
 <template is="tp2" />
 <template is="tp" data="{{name:'888' ,age:'90'}}" />
+

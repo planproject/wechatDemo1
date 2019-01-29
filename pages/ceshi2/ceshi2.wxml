@@ -1,2 +1,3 @@
-<!--pages/ceshi2/ceshi2.wxml-->
-<text>pages/ceshi2/ceshi2.wxml</text>
+<import src="../temp/temp.wxml" />
+<template is="item" data="{{text: 'forbar'}}" />
+

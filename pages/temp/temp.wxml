@@ -1,0 +1,7 @@
+<!--pages/temp/temp.wxml-->
+<template name="item">
+  <text>{{text}}</text>
+</template>
+
+<!-- include引入除template外的所有 -->
+<view style='color:red;' class='lll'>咋回事儿呢</view>

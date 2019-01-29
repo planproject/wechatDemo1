@@ -1,0 +1,4 @@
+/* pages/temp/temp.wxss */
+.lll{
+  font-size: 28px;
+}
