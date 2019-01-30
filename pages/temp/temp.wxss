@@ -1,4 +1,39 @@
 /* pages/temp/temp.wxss */
-.lll{
+/* .lll{
   font-size: 28px;
+}
+view{
+  color: blue;
+}
+text{
+  color:red;
+}
+view text{
+  color: yellow;
+}
+view::after{
+  content: '11111';
+} */
+
+page{
+  height: 100%;
+  width: 100%;
+  font-family: '微软雅黑';
+}
+/* 导航样式 */
+.nav{
+  widows: 710rpx;
+  padding: 0 20rpx;
+  display: flex;
+  background: darkorange;
+  font-size: 16px;
+  color: #fff;
+  justify-content: space-between;
+  height: 40px;
+  line-height: 40px;
+}
+.hbg{
+  background: saddlebrown;
+  border-radius: 20rpx;
+  padding:0 10px;
 }

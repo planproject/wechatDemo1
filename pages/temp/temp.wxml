@@ -1,7 +1,16 @@
 <!--pages/temp/temp.wxml-->
-<template name="item">
+<!-- <template name="item">
   <text>{{text}}</text>
-</template>
+</template> -->
 
 <!-- include引入除template外的所有 -->
-<view style='color:red;' class='lll'>咋回事儿呢</view>
+<!-- <view style='color:red;' class='lll'>咋回事儿呢</view>
+<view>标签选择器1</view>
+<view>标签选择器2</view>
+<view><text>标签选择器3</text></view>
+<text>标签选择器4</text> -->
+
+<view class='nav'>
+  <view hover-class='hbg' hover-stay-time='1000' wx:for="{{ navData }}">{{ item }}</view>
+
+</view>
